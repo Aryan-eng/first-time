@@ -1,3 +1,4 @@
+
 def prime(n):
   for i in range(2,n):
     if n%i == 0:
@@ -6,4 +7,4 @@ def prime(n):
     else:
       print("This number is prime")
       break
-prime(157)
+prime(29)
