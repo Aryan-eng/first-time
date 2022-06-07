@@ -1,6 +1,5 @@
-
-def prime():
-  n = int(input("What number do you want to check prime for?:"))
+f = 501
+def prime(n):
   for i in range(2,n):
     if n%i == 0:
       print("This number is not prime")
@@ -8,4 +7,4 @@ def prime():
     else:
       print("This number is prime")
       break
-prime()
+prime(f)
